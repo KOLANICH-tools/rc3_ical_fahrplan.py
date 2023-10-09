@@ -1,0 +1,16 @@
+/public_fahrplan.html
+/public_fahrplan.ics
+/public_fahrplan.ical
+/*.m3u
+
+__pycache__
+*.py[oc]
+/*.egg-info
+*.srctrlbm
+*.srctrldb
+build
+dist
+.eggs
+monkeytype.sqlite3
+/tests/testSavedDataRootDir
+/.ipynb_checkpoints
