@@ -6,6 +6,7 @@ import warnings
 from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
+from warnings import warn
 
 import dateutil.parser
 import defusedxml.ElementTree as ET
@@ -13,6 +14,8 @@ import html2markdown
 import pytz
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from icalendar.cal import Calendar, Event
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-tools/rc3_ical_fahrplan.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 try:
 	import mjson as json

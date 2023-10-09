@@ -3,6 +3,9 @@
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-tools/rc3_ical_fahrplan.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 try:
 	import ujson as json
